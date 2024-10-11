@@ -5,7 +5,7 @@ import keeper from '../assets/keeper.png';
 import plus from '../assets/plus.png'; 
 import voiceIcon from '../assets/voice-search.png'; 
 import peopleIcon from '../assets/people.png'; 
-import sendIcon from '../assets/chat.png'; 
+import sendIcon from '../assets/logout.png'; 
 import server1 from '../assets/skull.png';
 import server2 from '../assets/skull (1).png';
 import server3 from '../assets/skull (2).png';
