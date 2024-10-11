@@ -1,0 +1,41 @@
+/* src/components/ServerMenu.css */
+.server-menu {
+  position: absolute;
+  top: 40px; /* Позиция меню под названием сервера */
+  left: 0;
+  background-color: #2f3136;
+  border: 1px solid #202225;
+  border-radius: 8px;
+  padding: 12px;
+  z-index: 1000;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.server-menu h3 {
+  color: white;
+  margin-bottom: 8px;
+}
+
+.server-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.server-menu li {
+  color: #b9bbbe;
+  padding: 6px 0;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.server-menu li:hover {
+  color: white;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
